@@ -1,4 +1,4 @@
-# Third Party SSO
+# Third Party SSO Authenticator
 [![Latest Version](https://img.shields.io/github/v/release/noriel0010/third-party-sso.svg?style=flat-square)](https://github.com/noriel0010/third-party-sso/releases)
 
 ## Installation
