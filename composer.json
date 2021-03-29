@@ -1,0 +1,65 @@
+{
+    "name": "noriel0010/third-party-sso",
+    "description": "PHP Library to verify and validate 3rd party AccessToken/IdToken from different Social Media (facebook, microsoft, google, linkedin and apple) and authenticate a User with mentioned social media id",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noriel Francisco",
+            "email": "noriel.lim21@gmail.com"
+        }
+    ],
+    "keywords": [
+        "SSO",
+        "Third Party",
+        "Third Party SSO",
+        "Third Party authentication",
+        "Apple",
+        "Apple log in",
+        "Apple sign in",
+        "Apple ID",
+        "Apple authentication",
+        "Facebook",
+        "Facebook log in",
+        "Facebook sign in",
+        "Facebook ID",
+        "Facebook authentication",
+        "Google",
+        "Google log in",
+        "Google sign in",
+        "Google ID",
+        "Google authentication",
+        "Microsoft",
+        "Microsoft log in",
+        "Microsoft sign in",
+        "Microsoft ID",
+        "Microsoft authentication",
+        "Linkedin",
+        "Linkedin log in",
+        "Linkedin sign in",
+        "Linkedin ID",
+        "Linkedin authentication"
+      ],
+    "autoload": {
+        "psr-4": {
+            "Noriel\\SSO\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Noriel\\SSO\\Test\\": "test/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "phpseclib/phpseclib": "^2.0",
+        "lcobucci/jwt": "3.3.3",
+        "guzzlehttp/guzzle": "^6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
